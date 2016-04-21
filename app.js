@@ -28,7 +28,7 @@ helloBot.add('/profile',  [
     }
 ]);
 
-server.use(helloBot.verifyBotFramework({ appId: 'you id', appSecret: 'your secret' }));
+server.use(helloBot.verifyBotFramework({ appId: 'wpdfirstbot', appSecret: '697795b1daca4474b9ca48bd69d41884' }));
 server.post('/v1/messages', helloBot.listen());
 
 server.listen(8080, function () {
